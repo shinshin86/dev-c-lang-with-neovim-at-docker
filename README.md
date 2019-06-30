@@ -21,3 +21,13 @@ clang test.c # Also can use gcc => gcc test.c
 ./a.out
 # ---> hello world
 ```
+
+
+
+### Start neovim
+
+Set neovim alias "nv"
+
+```bash
+nv test.c # => nvim test.c
+```
