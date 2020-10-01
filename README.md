@@ -7,8 +7,8 @@
 ```bash
 git clone https://github.com/shinshin86/dev-c-lang-with-neovim-at-docker.git
 cd dev-c-lang-with-neovim-at-docker
-docker build -t dev-c-lang-with-vim .
-docker run -it --rm -v $(pwd)/work:/tmp/share --name dev-c dev-c-lang-with-vim /bin/bash
+docker build -t dev-c-lang-with-neovim .
+docker run -it --rm -v $(pwd)/work:/tmp/share --name dev-c dev-c-lang-with-neovim /bin/bash
 ```
 
 ### develop of C language(in docker container)
